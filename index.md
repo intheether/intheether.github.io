@@ -10,6 +10,3 @@ title: {{ site.name }}
 {% endfor %}
 
 
-# [](#header-1)Links
-
-[Style](css.md)
