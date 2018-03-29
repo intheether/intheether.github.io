@@ -1,14 +1,14 @@
 # Setup
-title:        Project or Site name
-tagline:      A responsive theme for your project on GitHub Pages
+title:        Diary of a <s>madman</s> miner...
+tagline:      Crypto Mining, Sia Hosting/Renting + Pings n Things
 baseurl:      ""
 paginate:     1
 locale:       "en"
 
 # About/contact
 author:
-  name:       Author name
-  url:        http://yourhomepage.com 
+  name:       tutemwesi
+  url:        http://intheether.io
 
 # Gems
 gems:
