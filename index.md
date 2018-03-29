@@ -6,6 +6,11 @@ title: {{ site.name }}
 # [](#header-1)Blog Posts
 
 {% for post in site.posts %}
+<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+
+
+{% for post in site.posts %}
 {{post.date | date_to_string}} 
 {{ site.baseurl }}{{ post.url }}{{ post.title }}
 {% endfor %}
