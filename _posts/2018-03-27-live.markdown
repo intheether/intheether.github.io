@@ -2,5 +2,5 @@
 layout: default
 title:  "Style"
 date:   27-03-2018
-permalink: css.md
+permalink: css.html
 ---
