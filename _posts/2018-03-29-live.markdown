@@ -2,7 +2,7 @@
 layout: default
 title:  "Welcome!"
 date:   28-03-2018
-categories: main
+permalink: /live/
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
