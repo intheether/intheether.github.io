@@ -189,4 +189,6 @@ a:hover { text-decoration: underline; }
 
 .site-footer-owner { display: block; font-weight: bold; }
 
+.hashrate { height: 100px;width: 100px;border-radius: 50%; background-color: #3b1656; background-image: linear-gradient(120deg, #291599, #991552); color: white; font: bold 22px Tahoma; line-height: 100px; text-align: center; }
+
 .site-footer-credits { color: #819198; }
