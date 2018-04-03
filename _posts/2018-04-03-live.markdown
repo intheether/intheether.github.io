@@ -1,0 +1,46 @@
+---
+layout: default
+title:  "Simple Python + Raspberry Pi + LCD Screen"
+date:   02-04-2018
+permalink: /monitor/
+---
+
+
+Today I got around to revisiting a little project I started a while back - I can now display the hashrate from my siamining.com worker stats via their API on an Adafruit LCD screen. 
+
+I'll do a proper write up at some point & add a video/photos. 
+
+Code for the script below:
+
+```python
+
+import Adafruit_CharLCD as LCD
+import urllib2
+import json
+import time
+lcd = LCD.Adafruit_CharLCDPlate()
+url = "https://siamining.com/api/v1/addresses/../workers"
+
+try:
+        while True:
+                workers = json.load(urllib2.urlopen(url))
+                hr0 = (workers[0]["intervals"][0]["hash_rate"])
+                hr1 = (workers[1]["intervals"][0]["hash_rate"])
+                result0 = float(hr0) / 1000000000
+                result1 = float(hr1) / 1000000000
+                result = result0 + result1
+                total = result / 1000
+                lcd.message(" %.2f" % float(total) + ' TH/s')
+                time.sleep(30)
+                lcd.clear()
+
+except KeyboardInterrupt:
+        print("Cleaning up!")
+        lcd.clear()
+```
+
+I'm pretty sure I can do the conversion stuff a little cleaner, but it works for now. Next step is to integrate this with an Alexa skill.
+
+
+
+
