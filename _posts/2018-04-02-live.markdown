@@ -5,6 +5,7 @@ date:   02-04-2018
 permalink: /blog/
 ---
 
+
 This blog is based Jekyll + Github pages. This is my first time really using both, so things may work a little.. cludgy.. to begin with. 
 
 I've managed to edit the cayman CSS theme and add a few little things - the buttons are not yet dynamic but I'm looking at a way of parsing the SIA Mining API and then using the json output to update that on a regular interval. Other stuff to do is re-do the way the blog is laid out and look at some different plugins. 
