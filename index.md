@@ -7,9 +7,12 @@ title: {{ site.name }}
 
 Hello and welcome!
 
-This site has been tracked to follow and record my journey in the rocky world of Crypto Mining; starting off at a very small scale in the hope of turning this into a 'proper' operation.
+I have this blog to detail my move into the rocky crypto-mining world. 
 
-You will find information on my rigs, how I network them (and posts on Networking in general), how I maintain and monitor them and the struggle with HMRC and tax ;-)
+I exchange power for hashrate, which in turns secures a PoW consensus based block-chain.
+
+Currently I mine Sia exclusively which rewards me with Utility Tokens (Siacoin) that users can use to rent storage space within the sia network.
+
 
 # [](#header-1)Posts
 
